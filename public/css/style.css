@@ -1,0 +1,807 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.social
+{
+    width: 100%;
+    height: 54px;
+     background-color:black;
+}
+
+#phonelogo{
+    height: 39px;
+    width: 36px;
+    position:absolute;
+    margin-left: 10px;
+}
+#mail{
+    height: 39px;
+    width: 36px;
+    position: absolute;
+    margin-left:200px;
+}
+
+#linked{
+    height: 39px;
+    width: 36px;
+    position: absolute;
+    margin-left: 1425px;
+
+
+}
+#insta{
+    height: 39px;
+    width: 36px;
+    position: absolute;
+    margin-left: 1375px;
+
+
+}
+#facebook{
+    height: 42px;
+    width: 39px;
+    position:absolute;
+    margin-left: 1325px;
+
+}
+#phone1{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#message1{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+header{
+    background-image: url(bg.png);
+    height: 147px;
+    width: 100%;
+    display: inline-block;
+}
+
+  nav ul {
+    list-style: none;
+    text-align: right;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+    padding:20px;
+
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Jacques Francois;
+    font-size:x-large;
+    padding:10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: black;
+
+  }
+  nav ul li a:hover{
+    background:black;
+    color:white;
+  }
+  nav ul li a.cart-link:hover {
+    background: none; /* No background change */
+    color: black; /* Maintain color of the image link */
+}
+  #logo{
+    position: absolute;
+    margin-left: 30px;
+    height:90px ;
+    width:90px ;
+
+
+  }
+  #company
+  {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 40px;
+    color: rgb(224, 37, 37);
+    font-style: Jacques Francois;
+    font-weight: bold;
+    font-size: larger;
+  }
+ .footer
+ {
+  width: 100%;
+  height: 500px;
+  background-color: black;
+  color: white;
+ }
+ #era
+{
+    font-family: DM sans;
+    font-size: 24px;
+    color: white;
+}
+      #japan
+      {
+        display: inline-block;
+        position: absolute;
+        margin-top: 100px;
+        margin-left:100px ;
+      }#link {
+        color: white;
+        font-size: x-large;
+        position: absolute;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 650px;
+    }
+
+      #white ul {
+        list-style: none;
+        text-align: center;
+      }
+
+      #white ul li {
+        display: block;
+        margin-top: 5px;
+        padding:5px;
+
+
+      }
+
+      #white ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family:Jacques Francois;
+        font-size:large;
+        padding:5px;
+        border-radius: 15px;
+        color:white;
+
+      }
+      #instagram
+      {
+
+        font-size:16px ;
+        font-family:DM sans ;
+      }
+      .si
+      {
+        display: inline-block;
+        position: absolute;
+        margin-left: 1050px;
+      }
+  #footer5
+  {
+    text-align: center;
+    font-size:36px ;
+    font-family:DM sans ;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 300px;
+  }
+  #page{
+    position:relative;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 991px)
+  {
+    .social
+{
+    width: 100%;
+    height: 54px;
+     background-color:black;
+}
+
+#phonelogo{
+    height: 39px;
+    width: 36px;
+    position:absolute;
+    margin-left: 10px;
+}
+#mail{
+    height: 39px;
+    width: 36px;
+    position: absolute;
+    margin-left:200px;
+}
+
+#linked{
+    height: 39px;
+    width: 36px;
+    position: absolute;
+    margin-left: 940px;
+
+
+}
+#insta{
+    height: 39px;
+    width: 36px;
+    position: absolute;
+    margin-left: 900px;
+
+
+}
+#facebook{
+    height: 42px;
+    width: 39px;
+    position:absolute;
+    margin-left: 858px;
+
+}
+
+#phone1{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#message1{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 250px;
+
+}
+
+header{
+    background-image: url(bg.png);
+    height: 147px;
+    width: 100%;
+    display: inline-block;
+}
+
+  nav ul {
+    list-style: none;
+    text-align: right;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-top: 25px;
+    padding:5px;
+
+
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family:Jacques Francois;
+    font-size:x-large;
+    padding:10px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: black;
+
+  }
+  nav ul li a:hover{
+    background:black;
+    color:white;
+  }
+  #logo{
+    position: absolute;
+    margin-left: 20px;
+    height:80px ;
+    width:80px ;
+
+
+  }
+  #company
+  {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 40px;
+    color: rgb(224, 37, 37);
+    font-style: Jacques Francois;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .footer
+  {
+   width: 100%;
+   height: 500px;
+   background-color: black;
+   color: white;
+  }
+  #era
+ {
+     font-family: DM sans;
+     font-size: 20px;
+     color: white;
+ }
+       #japan
+       {
+         display: inline-block;
+         position: absolute;
+         margin-top: 100px;
+         margin-left:50px ;
+       }#link {
+         color: white;
+         font-size: x-large;
+         position: absolute;
+         text-align: center;
+         margin-top: 40px;
+         margin-left: 450px;
+     }
+
+       #white ul {
+         list-style: none;
+         text-align: center;
+       }
+
+       #white ul li {
+         display: block;
+         margin-top: 5px;
+         padding:5px;
+
+
+       }
+
+       #white ul li a {
+         text-decoration: none;
+         font-weight: bold;
+         font-family:Jacques Francois;
+         font-size:large;
+         padding:5px;
+         border-radius: 15px;
+         color:white;
+
+       }
+       #instagram
+       {
+
+         font-size:16px ;
+         font-family:DM sans ;
+       }
+       .si
+       {
+         display: inline-block;
+         position: absolute;
+         margin-left: 680px;
+       }
+   #footer5
+   {
+     text-align: center;
+     font-size:30px ;
+     font-family:DM sans ;
+     position: absolute;
+     margin-top: 450px;
+     margin-left: 100px;
+   }
+   #page{
+     position:relative;
+     margin-left: 30px;
+     margin-bottom: 20px;
+   }
+   @media (max-width: 767px)
+   {
+    .social
+    {
+        width: 100%;
+        height: 54px;
+         background-color:black;
+    }
+
+    #phonelogo{
+        height: 39px;
+        width: 36px;
+        position:absolute;
+        margin-left: 10px;
+    }
+    #mail{
+        height: 39px;
+        width: 36px;
+        position: absolute;
+        margin-left:200px;
+    }
+
+    #linked{
+        height: 39px;
+        width: 36px;
+        position: absolute;
+        margin-left: 720px;
+
+
+    }
+    #insta{
+        height: 39px;
+        width: 36px;
+        position: absolute;
+        margin-left: 680px;
+
+
+    }
+    #facebook{
+        height: 42px;
+        width: 39px;
+        position:absolute;
+        margin-left: 635px;
+
+    }
+
+    #phone1{
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    #message1{
+        position: absolute;
+        color: white;
+        margin-top: 10px;
+        margin-left: 250px;
+
+    }
+
+    header{
+        background-image: url(bg.png);
+        height: 147px;
+        width: 100%;
+        display: inline-block;
+    }
+
+      nav ul {
+        list-style: none;
+        text-align: right;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin-top: 35px;
+        padding:1px;
+
+
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family:Jacques Francois;
+        font-size:20px;
+        padding:8px;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+        color: black;
+
+      }
+      nav ul li a:hover{
+        background:black;
+        color:white;
+      }
+      #logo{
+        position: absolute;
+        margin-left: 20px;
+        margin-top:15px;
+        height:60px ;
+        width:60px ;
+
+
+      }
+      #company
+      {
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 40px;
+        color: rgb(224, 37, 37);
+        font-style: Jacques Francois;
+        font-weight: bold;
+        font-size: larger;
+      }
+
+      .footer
+      {
+       width: 100%;
+       height: 500px;
+       background-color: black;
+       color: white;
+      }
+      #era
+     {
+         font-family: DM sans;
+         font-size: 14px;
+         color: white;
+     }
+           #japan
+           {
+             display: inline-block;
+             position: absolute;
+             margin-top: 100px;
+             margin-left:20px ;
+           }#link {
+             color: white;
+             font-size: x-large;
+             position: absolute;
+             text-align: center;
+             margin-top: 40px;
+             margin-left: 250px;
+         }
+
+           #white ul {
+             list-style: none;
+             text-align: center;
+           }
+
+           #white ul li {
+             display: block;
+             margin-top: 5px;
+             padding:5px;
+
+
+           }
+
+           #white ul li a {
+             text-decoration: none;
+             font-weight: bold;
+             font-family:Jacques Francois;
+             font-size:small;
+             padding:5px;
+             border-radius: 15px;
+             color:white;
+
+           }
+           #instagram
+           {
+
+             font-size:13px ;
+             font-family:DM sans ;
+           }
+           .si
+           {
+             display: inline-block;
+             position: absolute;
+             margin-left: 480px;
+
+           }
+        .si img{
+           height:140px;
+          width:140px;
+
+        }
+
+       #footer5
+       {
+         text-align: center;
+         font-size:25px ;
+         font-family:DM sans ;
+         position: absolute;
+         margin-top: 450px;
+         margin-left: 80px;
+       }
+       #page{
+         position:relative;
+         margin-left: 30px;
+         margin-bottom: 20px;
+       }
+
+
+
+       /* for small mobile device 480px */
+       @media (max-width: 480px)
+       {
+        .social
+        {
+            width: 100%;
+            height: 54px;
+             background-color:black;
+        }
+
+        #phonelogo{
+            height: 20px;
+            width: 20px;
+            position:absolute;
+            margin-left: 5px;
+          margin-top:15px;
+        }
+        #mail{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            margin-left:140px;
+          margin-top:15px;
+        }
+
+        #linked{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            margin-left: 450px;
+          margin-top:15px;
+
+
+        }
+        #insta{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            margin-left: 428px;
+          margin-top:15px;
+
+
+        }
+        #facebook{
+            height: 20px;
+            width: 20px;
+            position:absolute;
+            margin-left: 405px;
+          margin-top:15px;
+
+        }
+
+        #phone1{
+            position: absolute;
+            color: white;
+            margin-top: 15px;
+            margin-left: 30px;
+          font-size:12px
+        }
+        #message1{
+            position: absolute;
+            color: white;
+            margin-top: 15px;
+            margin-left: 170px;
+          font-size:12px;
+
+        }
+
+        header{
+            background-image: url(bg.png);
+            height: 127px;
+            width: 100%;
+            display: inline-block;
+        }
+
+          nav ul {
+            list-style: none;
+            text-align: right;
+          }
+
+          nav ul li {
+            display: inline-block;
+            margin-top: 35px;
+            padding:1px;
+
+
+          }
+
+          nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            font-family:Jacques Francois;
+            font-size:10px;
+            padding:5px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            color: black;
+
+          }
+          nav ul li a:hover{
+            background:black;
+            color:white;
+          }
+          #logo{
+            position: absolute;
+            margin-left: 20px;
+            margin-top:10px;
+            height:30px ;
+            width:30px ;
+
+
+          }
+          #company
+          {
+            position: absolute;
+            margin-left: 60px;
+            margin-top: 20px;
+            color: rgb(224, 37, 37);
+            font-style: Jacques Francois;
+            font-weight: bold;
+            font-size: small;
+          }
+
+          .footer
+          {
+           width: 100%;
+           height: 300px;
+           background-color: black;
+           color: white;
+          }
+          #era
+         {
+             font-family: DM sans;
+             font-size: 8px;
+             color: white;
+         }
+               #japan
+               {
+                 display: inline-block;
+                 position: absolute;
+                 margin-top: 40px;
+                 margin-left:10px ;
+               }
+         #japan img{
+         width:30px;
+           height:30px;
+
+         }
+
+         #link {
+                 color: white;
+                 font-size:10px;
+                 position: absolute;
+                 text-align: center;
+                 margin-top: 40px;
+                 margin-left: 170px;
+             }
+
+               #white ul {
+                 list-style: none;
+                 text-align: center;
+               }
+
+               #white ul li {
+                 display: block;
+                 margin-top: 5px;
+                 padding:3px;
+
+
+               }
+
+               #white ul li a {
+                 text-decoration: none;
+                 font-weight: bold;
+                 font-family:Jacques Francois;
+                 font-size:8px;
+                 padding:5px;
+                 border-radius: 15px;
+                 color:white;
+
+               }
+               #instagram
+               {
+
+                 font-size:8px ;
+                 font-family:DM sans ;
+               }
+               .si
+               {
+                 display: inline-block;
+                 position: absolute;
+                 margin-left: 360px;
+                 margin-top:20px;
+
+               }
+            .si img{
+               height:50px;
+              width:50px;
+
+            }
+
+           #footer5
+           {
+             text-align: center;
+             font-size:15px ;
+             font-family:DM sans ;
+             position: absolute;
+             margin-top: 270px;
+             margin-left: 50px;
+           }
+           #page{
+             position:relative;
+             margin-left: 30px;
+             margin-bottom: 20px;
+           }
+
+}
+  }
+
+  }
